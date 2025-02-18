@@ -3,32 +3,36 @@
 <head>
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div id="grid-container">
-        <aside>
+    <div class="grid">
+        <div class="item sidebar">
             <h1>Dashboard</h1>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Task</li>
-                    <li>comunity</li>
-                    <li>Settings</li>
-                    <li>Suport</li>
-                    <li>Privacy</li>
-                </ul>
-            </nav>
-        </aside>
-        <header>
-            <input type="text">
-            <div class="profile">Rodrigo Yeah</div>
-        </header>
-        <div id="content">
-            
+            <ul class="list1">
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Task</li>
+                <li>Communities</li>
+            </ul>
+            <ul>
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
         </div>
+        <div class="item header">
+            <input type="text">
+            <div class="profile">
+                Rodrigo Yeah
+            </div>
+        </div>
+        <div class="item content">content</div>
     </div>
 </body>
 </html>
